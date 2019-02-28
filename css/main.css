@@ -1,0 +1,220 @@
+/******************************
+GENERAL
+******************************/
+body{
+	font-size: 'Alegreya Sans', sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+#wrapper{
+	background-color: #FFEFD5;
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+img{
+	max-width: 100%;
+}
+
+h3{
+	margin: 0 0 1em 0;
+}
+
+/******************************
+HEADING
+******************************/
+header{
+	float: left;
+	margin: 0 0 30px 0;
+	padding:5px 0 0 0;
+	width: 100%;
+
+
+}
+#logo{
+	text-align: center;
+	margin: 0;
+}
+
+
+/******************************
+ Pagina:portafolio
+******************************/
+#gallery{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery li{
+	float:left;
+	width: 45%;
+	margin: 2.5%;
+	background-color: #DDA0DD;
+	color: #98FB98;
+	
+}
+
+
+#gallery li a p{
+	margin: 0;
+	font-size: 0.75em;
+	padding:5%;
+	}
+
+/******************************
+Pagina ACERCA DE...
+******************************/
+.foto-perfil{
+	display: block; /*Centrar y tenga el mismo*/
+	max-width: 150px;
+	margin: 0 auto 30px;
+	border-radius: 50%; /*Coloca la foto redonda, a partir de 50% no se modifica mas*/
+}
+
+
+
+/******************************
+pagina DE CONTACTO
+******************************/
+		 
+ .contact-info{
+
+ 	list-style: none;
+ 	padding: 0;
+ 	margin: 0;
+ 	font-size: 0.5m;
+ }
+
+ .contact-info  a {
+
+ 	display: block;
+ 	background-repeat: no-repeat;
+ 	background-size: 20px 20px;
+ 	min-height: 20px;
+ 	padding: 0 0 0 30px;
+ }
+
+ .contact-info li.phone a {
+ 	background-image: url('../img/telf.jpg');
+
+ }
+
+  .contact-info li.email a {
+ 	background-image: url('../img/email.png');
+
+ }
+
+  .contact-info li.twitter a {
+ 	background-image: url('../img/tw.png');
+
+ }
+
+
+
+/******************************
+navigation
+******************************/
+nav{
+	text-align: center;
+	margin: 20px 0 0;
+	padding: 10px 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li{
+	display: inline-block;
+}
+
+ nav a{
+ 	font-weight: 800;
+ 	padding: 15px 10px;
+
+
+
+}
+
+
+/******************************
+FOOTER
+******************************/
+footer{
+	font-size: 0.75;
+	text-align: center;
+	padding-top: 50px;
+	color:#DB7093;
+	clear: both;
+}
+
+.social-icon{
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+
+
+}
+
+
+/******************************
+COLORES
+******************************/
+
+/*LINKS*/
+a{
+	color: #FF1493;
+}
+
+/*ENCABEZADO*/
+header{
+	
+	border-color: #00FFFF;
+
+ } 
+
+/*TEXTO DEL LOGO*/
+h1,h2,h3{
+	color: #9400D3;
+}
+p{
+	color: #9400D3;
+}
+h1{
+	font-family: 'Alegreya Sans', sans-serif;
+	margin:15px 0;
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+h2{
+	font-size: 0.75em;
+	margin:-5px 0 0;
+	font-weight: normal;
+}
+
+/*NAVEGACION*/
+
+nav{
+	border-color: #DC143C;
+}
+
+/*links de navegacion*/
+nav a, nav a:visited{
+	color:#8B008B;
+}
+/*links seleccionados*/
+nav a.selected, a:hover{
+	color:#48D1CC;
+}
+/*cuerpo de la pagina*/
+body {
+	background-color: #FFC0CB;
+}
